@@ -8,7 +8,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./pages/NavBar/Navbar";
-import Dashbord from "./pages/mainPages/Dashboard";
+import Dashbord from "./pages/mainPages/Formulary";
 import About from "./pages/mainPages/About";
 import Home from "./pages/mainPages/Home";
 
