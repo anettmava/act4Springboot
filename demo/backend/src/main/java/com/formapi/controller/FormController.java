@@ -1,3 +1,4 @@
+
 package com.formapi.controller;
 
 import com.formapi.services.FormService;
@@ -7,6 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/form")
+@CrossOrigin(origins = "http://localhost:5173")
 public class FormController {
 
     private final FormService formService;
@@ -16,9 +18,10 @@ public class FormController {
     }
 
     @PostMapping("/submit")
-    public String submitForm(@RequestBody Map<String, String> formData) {
+    public Map<String, String> submitStudentForm(@RequestBody Map<String, String> studentData) {
 
-        return formService.processForm(formData);
+        String message = formService.processStudentForm(studentData);
+        return Map.of("message", message);
 
     }
 }
