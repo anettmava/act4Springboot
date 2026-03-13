@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+.npm
+
+# Build outputs
+target/
+*.class
+*.jar
+*.war
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.iml
