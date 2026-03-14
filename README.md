@@ -5,7 +5,7 @@ Aplicacion web full stack para registrar informacion de alumnos mediante un form
 El proyecto esta dividido en dos servicios:
 
 - Backend REST API con Spring Boot.
-- Frontend con React + Vite.
+- Frontend con React.
 
 ## Que hace la app
 
@@ -40,37 +40,18 @@ cd demo
 
 Backend disponible en:
 
--http://localhost:8081`
+-http://localhost:8081
 
-## Ejecutar frontend (React + Vite)
+## Ejecutar frontend (React)
 
 En otra terminal, desde la raiz del repositorio:
-
-```powershell
 cd frontend-form-app
 npm install
 npm run dev
-```
+
 
 Frontend disponible en:
 
-- `http://localhost:5173`
+- http://localhost:5173
 
-## Endpoint principal
-
-- Metodo: `POST`
-- Ruta: `/api/form/submit`
-- Tipo de contenido: `application/json`
-
-Ejemplo de body JSON:
-
-```json
-{
-	"nombre": "Ana",
-	"email": "ana@test.com",
-	"telefono": "1234567890",
-	"ciudad": "Monterrey",
-	"mensaje": "Hola"
-}
-```
 
