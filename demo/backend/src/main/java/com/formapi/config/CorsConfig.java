@@ -6,9 +6,13 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
+// Configuracion global de CORS para permitir que el frontend tome la API del backend.
+
 public class CorsConfig {
 
     @Bean
+    // Registra reglas CORS para todos los endpoints de la aplicacion.
+    
     public WebMvcConfigurer corsConfigurer() {
 
         return new WebMvcConfigurer() {

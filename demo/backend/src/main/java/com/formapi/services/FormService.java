@@ -5,8 +5,11 @@ import org.springframework.stereotype.Service;
 import java.util.Map;
 
 @Service
+//Servicio de negocio para validar y procesar los datos del formulario.
+
 public class FormService {
 
+    // Valida campos obligatorios y construye el mensaje de respuesta
     public String processStudentForm(Map<String, String> studentData) {
 
         String nombre   = studentData.get("nombre");
