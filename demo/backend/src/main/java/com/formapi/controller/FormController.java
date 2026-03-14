@@ -9,7 +9,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/form")
 @CrossOrigin(origins = "http://localhost:5173")
-// Controlador REST que expone endpoints para recibir formularios
+// Controlador REST que expone endpoints para recibir formularios.
 
 public class FormController {
 
