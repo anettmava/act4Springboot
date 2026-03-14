@@ -28,7 +28,7 @@ Campos principales manejados por el formulario:
 - `demo`: servicio backend (Spring Boot).
 - `frontend-form-app`: servicio frontend (React + Vite).
 
-El frontend corre en `http://localhost:5173` y usa proxy de Vite para redirigir `/api` al backend en `http://localhost:8081`.
+El frontend corre en `http://localhost:5173` y usa proxy de Vite para redirigir `/api` al backend en `http://localhost:8080`.
 
 ## Ejecutar backend (Spring Boot)
 
@@ -40,7 +40,7 @@ cd demo
 
 Backend disponible en:
 
--http://localhost:8081
+-http://localhost:8080
 
 ## Ejecutar frontend (React)
 
